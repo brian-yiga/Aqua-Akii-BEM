@@ -1,0 +1,168 @@
+.main-content {
+    background-color: rgb(248, 246, 246);
+    padding-bottom: 104px;
+}
+
+.header-hero--aboutus {
+    background-image: url(images/aboutus/mobileheader.png), url(images/aboutus/mobileheaderopacity.png);
+    background-blend-mode: multiply;
+    height: 667px;
+    font-family: Poppins;
+    font-weight: 800;
+    font-size: 55px;
+  
+}
+
+
+.statement-cards {
+   
+  
+    margin-top: -150px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.textcard {
+   
+    margin:  0px auto;
+    width: 90%;
+    height: 316px;
+    padding: 64px 40px 64px 40px;
+    
+    border-radius: 24px;
+    background-color: white;
+    
+    
+}
+
+.textcard__title {
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 300;
+    line-height: 56px;
+    text-align: left;
+    color: var(--primary);
+    margin-bottom: 24px;
+}
+
+.textcard__text {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #475467;
+}
+
+.greentextcard {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 896px;
+    margin: 0 auto 104px;
+}
+
+.greentextcard__picture {
+    border-radius: 25px 25px 0px 0px;
+    width: 100%;
+}
+
+.greentextcard__body-wrapper {
+    height: 600px;
+    padding: 64px 32px 64px 32px;
+    background-color: var(--primary);
+    border-radius: 0px 0px 25px 25px;
+    margin-top: -5px;
+}
+
+.greentextcard__title {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 51px;
+    text-align: left;
+    color: white;
+    margin-bottom: 32px;
+}
+
+.greentextcard__text {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: white;
+}
+
+.ourpartners__body-wrapper {
+    width: 330px;
+    margin: 0 auto;
+}
+
+.teamcard-wrapper {
+    width: 90%;
+    margin: 0 auto 104px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6fr;
+    gap: 24px 0px;
+
+}
+
+.teamcards {
+    margin: 0 auto;
+}
+
+.teamcard__headshot {
+    background-color: #D1D4DB;
+}
+
+#team__heading {
+    font-family: Poppins;
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 72px;
+    text-align: center;
+    color: var(--universal);
+    margin: 104px 0px 64px;
+}
+
+.teamcard__headshot {
+    width: 396px;
+    height: auto;
+    border-radius: 24px 24px 0px 0px;
+}
+
+.teamcard__bodytext {
+    width: 396px;
+    height: 205px;
+    padding: 48px 40px 48px 40px;
+    gap: 16px;
+    border-radius: 0px 0px 24px 24px;
+    background-color: white;
+    margin-top: -5px;
+
+}
+
+.teamcard__name {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: left;
+    color: var(--primary);
+
+}
+
+.teamcard__bio {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #475467;
+}
+
+
+
