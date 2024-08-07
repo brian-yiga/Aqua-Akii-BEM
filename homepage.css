@@ -177,6 +177,7 @@
       width: 800px;
       height: 280px;
       margin: 0 auto;
+      border: 1px solid red;
     }
   
     .ourpartners__body-wrapper {
@@ -226,6 +227,7 @@
       height: 67px;
       padding-top: 25px;
     }
+
   }
   
   @media screen and (min-width: 1200px) {
